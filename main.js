@@ -14,10 +14,6 @@ function addTask() {
         stylesTask = false;
         return;
     } 
-    
-    else if (input_tasks.innerHTML.lenght < 5) {
-        alert("meu zovo msm")
-    }
 
     let linames = document.createElement("li");
 
@@ -57,7 +53,7 @@ clear.addEventListener('click', (e) => {
 deleteall.addEventListener('click', (e) => {
     e.preventDefault();
 
-    tasks.remove();
+    tasks.innerHTML = ""
 
     return;
 })
