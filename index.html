@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <img id="icon-task" src="./assets/task-icon.svg" alt="">
+
+        <div id="container-add">
+            <div id="input">
+                <img src="./assets/icon-task.svg" alt="">
+                <input type="text" id="add-tasks" placeholder="Adicione uma tarefa">
+            </div>
+
+
+            <button type="button" id="add" onclick="addTask()">
+            <img src="./assets/add-icon.svg" alt="">
+            <p>Adicionar</p>
+        </button>
+        </div>
+
+        <div id="container-tasks">
+            <button type="button" id="limpar" onclick="clear()">
+            <img src="./assets/icon-delete.svg" alt="delete">
+        </button>
+            <button id="limpar-tudo">
+            <img src="./assets/delete-all.svg" alt="delete all">
+        </button>
+
+            <div id="tasks"></div>
+        </div>
+    </main>
+
+
+
+    <script src="main.js">
+    </script>
+</body>
+
+</html>

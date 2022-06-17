@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    background: #1a1616;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#icon-task {
+    height: 6rem;
+}
+
+#container-add {
+    display: flex;
+    flex-direction: column;
+}
+
+#add-tasks {
+    border: none;
+    background: scroll;
+    outline: none;
+    width: 100%;
+    margin-left: 40px;
+}
+
+#input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    height: 2.5rem;
+    padding: 20px;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 4px;
+    background: #fff;
+    margin-top: 3rem;
+    position: relative;
+}
+
+#input img {
+    position: absolute;
+    left: 10px;
+}
+
+#add {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 2.5rem;
+    width: 100%;
+    background: #4e12e6;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    margin-top: 0.7rem;
+    cursor: pointer;
+    position: relative;
+}
+
+#add img {
+    position: absolute;
+    left: 10px;
+}
+
+#add p {
+    margin-left: 50px;
+}
+
+#add:hover {
+    background: #4817c4;
+    transition: all 200ms ease-in-out;
+}
+
+img {
+    height: 25px;
+}
+
+#container-tasks {
+    width: 20rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+    background: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+}
+
+.error {
+    background: rgb(77, 31, 31);
+}
+
+#limpar {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    border-radius: 5px;
+    border: 2px #2a2a2a;
+    cursor: pointer;
+    background: scroll;
+}
+
+#limpar-tudo {
+    position: absolute;
+    right: 8px;
+    top: 70px;
+    border: none;
+    background: scroll;
+}
