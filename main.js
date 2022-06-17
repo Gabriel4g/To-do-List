@@ -15,29 +15,29 @@ function addTask() {
         return;
     } 
 
-    let linames = document.createElement("li");
+    let liTasks = document.createElement("li");
 
-    array.unshift(linames)
+    array.unshift(liTasks)
 
-    linames.innerHTML = input_tasks.value
+    liTasks.innerHTML = input_tasks.value
 
-    tasks.append(linames)
+    tasks.append(liTasks)
 
     const stylesTask = {
-        background: linames.style.background = "#2a2a2a",
-        color: linames.style.color = "#fff",
-        width: linames.style.width = "auto",
-        maxWidth: linames.style.maxWidth = "16rem",
-        overflow: linames.style.overflow = "hidden",
-        radius: linames.style.borderRadius = "5px",
-        padding: linames.style.padding = "10px 10px",
-        margin: linames.style.margin = "10px",
+        background: liTasks.style.background = "#2a2a2a",
+        color: liTasks.style.color = "#fff",
+        width: liTasks.style.width = "auto",
+        maxWidth: liTasks.style.maxWidth = "16rem",
+        overflow: liTasks.style.overflow = "hidden",
+        radius: liTasks.style.borderRadius = "5px",
+        padding: liTasks.style.padding = "10px 10px",
+        margin: liTasks.style.margin = "10px",
     }
 
     const stylesInput = {
-        weight: linames.style.fontWeight = "500",
-        family: linames.style.fontFamily = "Roboto",
-        listStyle: linames.style.listStyle = "none"
+        weight: liTasks.style.fontWeight = "500",
+        family: liTasks.style.fontFamily = "Roboto",
+        listStyle: liTasks.style.listStyle = "none"
     }
 
     input_tasks.value = ""
