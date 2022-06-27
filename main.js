@@ -1,8 +1,8 @@
 const input_tasks = document.getElementById("add-tasks");
 const button_add = document.querySelector("#add");
 const container = document.querySelector("#container-tasks");
-const clear = document.querySelector("#limpar")
-const deleteall = document.querySelector("#limpar-tudo")
+const clear = document.querySelector("#limpar");
+const deleteall = document.querySelector("#limpar-tudo");
 
 const tasks = document.getElementById("tasks")
 var array = []
@@ -17,13 +17,18 @@ function addTask() {
 
     let liTasks = document.createElement("li");
 
-    array.unshift(liTasks)
+    array.unshift(liTasks);
 
-    liTasks.innerHTML = input_tasks.value
+    liTasks.innerHTML = input_tasks.value;
 
-    tasks.append(liTasks)
+    tasks.append(liTasks);
 
-    const stylesTask = {
+    liTasks.className = "tasksStyle";
+    let classStyle = liTasks.classList;
+
+    classStyle.add("tasksStyle");
+    
+    /* const stylesTask = {
         background: liTasks.style.background = "#2a2a2a",
         color: liTasks.style.color = "#fff",
         width: liTasks.style.width = "auto",
@@ -38,7 +43,7 @@ function addTask() {
         weight: liTasks.style.fontWeight = "500",
         family: liTasks.style.fontFamily = "Roboto",
         listStyle: liTasks.style.listStyle = "none"
-    }
+    } */
 
     input_tasks.value = ""
 
