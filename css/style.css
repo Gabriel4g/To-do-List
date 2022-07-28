@@ -109,7 +109,12 @@ img {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-    position: relative;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .error {
@@ -117,21 +122,17 @@ img {
 }
 
 #limpar {
-    position: absolute;
-    right: 10px;
-    top: 15px;
-    border-radius: 5px;
+    margin: 10px;
     border: 2px #2a2a2a;
     cursor: pointer;
     background: scroll;
 }
 
 #limpar-tudo {
-    position: absolute;
-    right: 8px;
-    top: 70px;
+    margin: 10px;
     border: none;
     background: scroll;
+    cursor: pointer;
 }
 
 .tasksStyle {
@@ -146,4 +147,8 @@ img {
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     list-style: none;
+}
+
+#tasks {
+    margin-left: 20px;
 }
