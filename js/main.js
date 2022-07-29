@@ -10,10 +10,10 @@ var array = []
 function addTask() {
 
     if (input_tasks.value == ' ' || input_tasks.value == '') {
-        alert("Vai fazer nada? kkkkkkkkkkkkkkkk");
-        stylesTask = false;
+        alert("Adicione uma tarefa");
+        input_tasks.value = ""
         return;
-    } 
+    }
 
     let liTasks = document.createElement("li");
     

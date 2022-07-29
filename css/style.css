@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    background: #2a2a2a;
+    background: #0e091b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,12 +18,13 @@ main {
     width: 100%;
     max-width: 500px;
     padding: 1rem;
-    background: #1a1616;
+    background: #160e2b;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-height: 35rem;
 }
 
 #icon-task {
@@ -101,7 +102,7 @@ img {
 }
 
 #container-tasks {
-    width: 20rem;
+    width: 22rem;
     margin-top: 2rem;
     border-radius: 4px;
     background: #fff;
@@ -136,7 +137,7 @@ img {
 }
 
 .tasksStyle {
-    background: #2a2a2a;
+    background: #140f20;
     color: #fff;
     width: auto;
     max-width: 16rem;
@@ -147,8 +148,10 @@ img {
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     list-style: none;
+    overflow-x: auto;
 }
 
 #tasks {
-    margin-left: 20px;
+    margin-left: 2.2rem;
+    overflow-y: scroll;
 }
