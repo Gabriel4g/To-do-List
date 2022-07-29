@@ -4,7 +4,8 @@
 ### Delete tasks ✅
 ### Delete all ✅
 
-![Captura de tela de 2022-07-28 14-05-02](https://user-images.githubusercontent.com/92071360/181617728-b0c09d98-596c-450a-aae8-8c47a91a46d2.png)
+![Captura de tela de 2022-07-29 16-41-26](https://user-images.githubusercontent.com/92071360/181846857-7a0771a9-a62f-4019-a94a-91f46661571e.png)
+
 
 <hr/>
 
