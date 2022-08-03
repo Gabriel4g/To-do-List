@@ -17,6 +17,7 @@ function addTask() {
 
     let liTasks = document.createElement("li");
     
+    liTasks.setAttribute("contenteditable", "true")
     array.unshift(liTasks);
 
     liTasks.innerHTML = input_tasks.value;

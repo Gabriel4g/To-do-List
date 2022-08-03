@@ -141,6 +141,7 @@ img {
     color: #fff;
     width: auto;
     max-width: 16rem;
+    max-height: auto;
     overflow: hidden;
     border-radius: 5px;
     padding: 10px 10px;
